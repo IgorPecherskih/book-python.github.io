@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+<link rel="shortcut icon" href="images/12345.ico" type="image/x-icon">
+	<head>
+		<title>Тестові завдання | Python</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+			<div id="wrapper">
+					<div id="main">
+						<div class="inner">
+
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Веб-підручник</strong> by Python</a>
+									<ul class="icons">
+										<li><a href="https://www.facebook.com/live.fuaid" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.instagram.com/fuaid_live/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="http://idgu.edu.ua/" class="icon brands fa-flickr"><span class="label">Сайт ІДГУ</span></a></li>
+									</ul>
+								</header>
+								<section>
+									<header class="main">
+										<h1>Тестові завдання</h1>
+									</header>
+
+									<span class="image main"><img src="images/pic29.jpg" alt="" /></span>
+									<div class="box">
+						<center><p>ВИКОНАЙТЕ ЗАВДАННЯ ТЕСТУ</p></center>
+						<hr>
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1251" />
+        <script type="text/javascript">
+ 
+        function hideNoDHTML()
+        {
+          document.getElementById('nodhtml').style.display = 'none';
+          showQuestions();
+        }
+ 
+        function showQuestions()
+        {
+          document.getElementById('questions').style.display = 'block';
+          document.getElementById('results').style.display = 'none';
+        }
+ 
+        function showResults()
+        {
+            
+            var i = 0;
+            if(document.getElementById('choice11').checked == true)
+            {
+                i++;
+            }
+            if(document.getElementById('choice23').checked == true)
+            {
+                i++;
+            }
+			if(document.getElementById('choice31').checked == true)
+            {
+                i++;
+            }
+			if(document.getElementById('choice41').checked == true)
+            {
+                i++;
+            }
+			
+                
+            document.getElementById('questions').style.display = 'none';
+            document.getElementById('results').style.display = 'block';
+            
+            document.getElementById('results').innerHTML = '<center><h2>Результати тестування </h2>\n<p>Правильна кількість: <strong>' + i + '</strong>.</p>';
+ 
+            if(i == 2) 
+            {
+                document.getElementById('results').innerHTML += '<center><b><p>Вітаємо з чудовим результатом!</p>\n<p>Оцінка 5!</p></b>';
+            }
+        }	
+        </script>
+    </head>
+    <body onload="hideNoDHTML();">
+    
+        <div id="nodhtml"></div>
+     
+        <div id="questions">
+            <form action="">
+                <h3>Яка з наступних функцій перетворює рядок на список у Python?</h3>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question1" id="choice11" /> <label for="choice11"><code>list(mystring)</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question1" id="choice12" /> <label for="choice12"><code>tuple(mystring)</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question1" id="choice13" /> <label for="choice13"><code>eval(mystring)</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question1" id="choice14" /> <label for="choice14"><code>repr(mystring)</code></label>
+				</div>
+				
+         <h3>Яка з наступних функцій перетворює одиночний символ на його цілісний еквівалент у Python?</h3>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question2" id="choice21" /> <label for="choice21"><code>oct(x)</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question2" id="choice22" /> <label for="choice22"><code>hex(x)</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question2" id="choice23" /> <label for="choice23"><code>ord(x)</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question2" id="choice24" /> <label for="choice24"><code>unichr(x)</code></label>
+				</div>
+				
+			<h3>Який з наступних операторів у Python оцінюється як істина, якщо він не знаходить змінну у зазначеній послідовності, і брехня інакше?</h3>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question3" id="choice31" /> <label for="choice31"><code>not in</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question3" id="choice32" /> <label for="choice32"><code>is</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question3" id="choice33" /> <label for="choice33"><code>//</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question3" id="choice34" /> <label for="choice34"><code>**</code></label>
+				</div>
+				
+			<h3>Чи чутливий Python до регістру під час роботи з ідентифікаторами?</h3>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question4" id="choice41" /> <label for="choice41"><code>Так</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question4" id="choice42" /> <label for="choice42"><code>Ні</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question4" id="choice43" /> <label for="choice43"><code>Іноді</code></label>
+				</div>
+				<div class="col-4 col-12-small">
+                <input type="radio" name="question4" id="choice44" /> <label for="choice44"><code>Жоден із перелічених вище</code></label>
+				</div>
+
+                
+                <center><p class="buttons"><input type="button" value="Дізнатися результат" onclick="showResults();" /> <input type="reset" value="Очистити форму" /></p></center>
+            </form>
+        </div>
+        <div id='results'></div>
+        <br/><br/> 
+    
+    <script>    
+        function testCount( ) {
+            const
+                test = document.querySelector(".test"),
+                questionsCount = test.querySelectorAll("ul").length - 1,
+                checked = test.querySelectorAll("input:checked"),
+                checkedCount = checked.length,
+                right = test.querySelectorAll("li.right input:checked"),
+                rightCount = right.length
+            ; 
+            alert( `Питаннь в тесті: ${questionsCount}
+Питаннь без відповіді: ${questionsCount - checkedCount}, ${100 - (checkedCount / questionsCount * 100).toFixed(0)}%
+Вірних відповідей: ${rightCount}, ${(rightCount / questionsCount * 100).toFixed(0)}%
+`)
+        }
+    </script>
+								</section>
+
+						</div>
+					</div>
+
+					<div id="sidebar">
+						<div class="inner">
+
+
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Пошук" />
+									</form>
+								</section>
+								
+								<nav id="menu">
+									<header class="major">
+										<h2>Зміст</h2>
+									</header>
+									<ul>
+												<li><a href="index.html">Вступ</a></li>
+												<li><a href="istoria.html">Історична довідка</a></li>
+										</li>
+										<li>
+											<span class="opener">Python в реальному світі</span>
+											<ul>
+												<li><a href="opis.html">Короткий опис</a></li>
+												<li><a href="vikoris.html">Використання Python</a></li>
+												<li><a href="versii.html">Версії Python</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Початок роботи</span>
+											<ul>
+												<li><a href="mashin.html">Від машинної мови до мови високого рівня</a></li>
+												<li><a href="mova.html">Python - інтерпретована мова програмування</a></li>
+												<li><a href="download.html">Завантаження Python</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Завдання</span>
+											<ul>
+												<li><a href="test.html">Тестові завдання</a></li>
+												<li><a href="kontrol.html">Контрольні запитання</a></li>
+												<li><a href="vpari.html">Вправи</a></li>
+												<li><a href="zadach.html">Задачі</a></li>
+											</ul>
+											</li>
+										<li><a href="video.html">Відеоролики про Python</a></li>
+										</li>
+										<li><a href="infa.html">Трохи про підручник</a></li>
+										<li><a href="rozrob.html">Розробник підручника</a></li>
+										<li><a href="posil.html">Корисні посилання</a></li>
+										<li>	
+								</nav>
+
+
+								<section>
+									<header class="major">
+										<h2>Контакти університету:</h2>
+									</header>
+									<p align="justify">Ізмаїльський державний гуманітарний університет - вищий навчальний заклад в Ізмаїлі, державний університет, єдиний на території українського Подунав'я.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:	idgu@ukr.net">idgu@ukr.net</a></li>
+										<li class="icon solid fa-phone">+380 (4841) 6-30-01</li>
+										<li class="icon solid fa-home">вул. Рєпіна, 12, Ізмаїл, Одеська область, 68601</li>
+									</ul>
+								</section
+						</div>
+					</div>
+			</div>
+
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
